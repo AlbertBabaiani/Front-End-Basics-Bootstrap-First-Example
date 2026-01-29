@@ -40,47 +40,43 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header
-      class="sticky-top navbar navbar-expand-md navbar-dark bg-dark py-3 px-md-0 px-2"
-    >
+    <header class="bg-dark position-sticky top-0 z-3 p-2">
       <div class="container">
-        <a href="#" class="navbar-brand text-capitalize fw-bold"
-          >Frontend Bootcamp</a
-        >
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand fw-bold" href="#">Front-End Bootcamp</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-id"
+            aria-controls="navbar-id"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar-id"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="navbar-collapse collapse" id="navbar-id">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="#fundamentals-section" class="nav-link text-capitalize"
-                >What you'll learn</a
-              >
-            </li>
-
-            <li class="nav-item ms-md-2">
-              <a href="#questions-section" class="nav-link text-capitalize"
-                >Questions</a
-              >
-            </li>
-
-            <li class="nav-item ms-md-2">
-              <a href="#instructors-section" class="nav-link text-capitalize"
-                >Instructors</a
-              >
-            </li>
-          </ul>
-        </div>
+          <div class="collapse navbar-collapse" id="navbar-id">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#learning-formats"
+                  >What You'll Learn</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#questions-section">Questions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#instructors-section">
+                  Instructors
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
 
@@ -110,7 +106,7 @@
             </div>
 
             <img
-              class="img-fluid w-50 d-none d-lg-block"
+              class="w-50 d-none d-lg-block"
               src="images/showcase.svg"
               alt="Showcase Image"
             />
@@ -445,15 +441,16 @@
 
       <!-- Instructors Sections -->
 
-      <section class="p-5 bg-primary text-light" id="instructors-section">
+      <section
+        class="p-5 bg-primary text-light text-center"
+        id="instructors-section"
+      >
         <div class="container">
-          <div class="vstack gap-1 text-center my-3">
-            <h2 class="display-5 fw-bold">Our Instructors</h2>
-            <p class="lead">
-              Our instructors all have 5+ years working as a web developer in
-              the industry
-            </p>
-          </div>
+          <h2 class="display-5 fw-bold mb-3">Our Instructors</h2>
+          <p class="lead mb-4">
+            Our instructors all have 5+ years working as a web developer in the
+            industry
+          </p>
 
           <div class="row g-4 align-items-stretch">
             <div class="col-xl col-lg-4 col-md-6">
@@ -473,17 +470,19 @@
                     doloremque, eum voluptatum.
                   </p>
 
-                  <div class="stack text-center fs-5">
-                    <a href="#home" class="text-dark mx-1"
+                  <div
+                    class="d-flex justify-content-center align-items-center fs-5"
+                  >
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-facebook"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-instagram"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-twitter"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-linkedin"></i
                     ></a>
                   </div>
@@ -510,17 +509,19 @@
                     incidunt debitis porro, nihil ducimus quaerat.
                   </p>
 
-                  <div class="stack text-center fs-5">
-                    <a href="#home" class="text-dark mx-1"
+                  <div
+                    class="d-flex justify-content-center align-items-center text-center fs-5"
+                  >
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-facebook"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-instagram"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-twitter"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-linkedin"></i
                     ></a>
                   </div>
@@ -547,17 +548,19 @@
                     doloremque, eum voluptatum.
                   </p>
 
-                  <div class="stack text-center fs-5">
-                    <a href="#home" class="text-dark mx-1"
+                  <div
+                    class="d-flex justify-content-center align-items-center text-center fs-5"
+                  >
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-facebook"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-instagram"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-twitter"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-linkedin"></i
                     ></a>
                   </div>
@@ -584,17 +587,19 @@
                     doloremque, eum voluptatum.
                   </p>
 
-                  <div class="stack text-center fs-5">
-                    <a href="#home" class="text-dark mx-1"
+                  <div
+                    class="d-flex justify-content-center align-items-center text-center fs-5"
+                  >
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-facebook"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-instagram"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-twitter"></i
                     ></a>
-                    <a href="#home" class="text-dark mx-1"
+                    <a href="#" class="text-dark mx-1"
                       ><i class="bi bi-linkedin"></i
                     ></a>
                   </div>
